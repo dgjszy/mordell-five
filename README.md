@@ -41,6 +41,6 @@ The proof uses only `propext`, `Classical.choice`, and `Quot.sound`. It contains
 
 Compactness and genuine stationarity reduce the problem to global maximizers. Exact resultant identities and ideal-membership proofs split all coefficient cases. Rational interval certificates bound every real root in the two generic quartic branches. All non-pentagonal branches lie strictly below 3125, completing the maximum classification and both directions of the equality characterization.
 
-The algebraic route draws on Jie Wang, *The Five-Point Case of Mordell’s Discriminant Inequality*, [arXiv:2610.00358v1](https://arxiv.org/abs/2610.00358). All required identities and certificates are proved within Lean; no external symbolic computation is trusted.
+All required identities and certificates are proved within Lean; no external symbolic computation is trusted.
 
 This repository contains only the main proof, its local import dependencies, and build configuration. Research drafts, logs, verification dumps, generated binaries, and local caches are omitted.
